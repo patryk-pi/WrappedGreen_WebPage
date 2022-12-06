@@ -1,0 +1,43 @@
+.header {
+  height: 7.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 0;
+
+
+  &__logo {
+    height: 4.7rem;
+    width: 13.7rem;
+  }
+}
+
+.navigation {
+
+  &__list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 6.4rem;
+    font-size: $heading-secondary-font-size;
+    font-weight: 600;
+  }
+
+  &__item {
+
+  }
+
+  &__link:link,
+  &__link:visited {
+    color: $text-color;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    transition: border-bottom-color .4s;
+  }
+
+  &__link:hover,
+  &__link:active {
+    color: $text-color;
+    border-bottom: 3px solid $color-primary;
+  }
+}

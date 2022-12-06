@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: $default-font-size;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.container {
+  width: 100%;
+  max-width: 122rem;
+  margin: 0 auto;
+}
+
