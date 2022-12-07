@@ -1,0 +1,42 @@
+.section-hero {
+  background-image: linear-gradient($color-primary-light, $color-white);
+  z-index: 20;
+  overflow: hidden;
+  height: calc(100vh - 7.5rem);
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 4rem;
+
+  &__text {
+    margin-top: 13rem;
+    flex: 0 1 50%;
+  }
+
+  &__bowl {
+    width: 51.7rem;
+    height: 52.2rem;
+    z-index: 50;
+  }
+
+  &__pepper {
+    position: absolute;
+    left: -4rem;
+
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 85rem;
+    height: 85rem;
+    border-radius: 50%;
+    background-color: $color-primary;
+    right: -25rem;
+    top: -19rem;
+    z-index: 30;
+  }
+}
