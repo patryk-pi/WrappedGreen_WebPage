@@ -1,0 +1,53 @@
+.section-menu {
+  background-color: $color-white;
+  padding-bottom: 4rem;
+}
+
+.menu {
+
+  @include flex-center;
+  flex-direction: column;
+  padding-top: 10rem;
+
+  &__container {
+    margin-top: 3.2rem;
+    display: flex;
+    gap: 2.4rem;
+
+    &:hover .menu__position:not(:hover) {
+      transform: scale(0.9);
+    }
+  }
+
+  &__position {
+    box-shadow: 0 1.5rem 3rem rgba($color-black, 0.2);
+    transition: all .4s;
+    border-radius: 8px;
+    overflow: hidden;
+
+    &:hover {
+      transform: scale(1.1);
+      box-shadow: 0 3rem 5rem rgba($color-black, 0.2);
+    }
+  }
+
+  &__text-box {
+    padding: 1rem 3rem 2rem;
+  }
+
+  &__photo {
+    width: 39.2rem;
+    height: 35.1rem;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    font-size: 2.2rem;
+  }
+
+  &__description {
+    font-size: 1.8rem;
+  }
+}
