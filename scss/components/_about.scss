@@ -1,0 +1,34 @@
+.section-about {
+  background-color: $color-white;
+  padding-top: 7rem;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+
+
+  &__photo {
+    width: 55rem;
+    height: 53.5rem;
+    position: relative;
+  }
+
+  &__text {
+    flex-basis: 54rem;
+    width: 100%;
+    font-size: 2.4rem;
+  }
+
+  &::before {
+    content: "";
+    height: 64rem;
+    width: 64rem;
+    background-color: $color-primary-light-2;
+    position: absolute;
+    border-radius: 50%;
+    transform: translate(-50%, -4%);
+  }
+}

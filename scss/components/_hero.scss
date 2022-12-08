@@ -8,11 +8,12 @@
 .hero {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   position: relative;
   margin-top: 4rem;
 
   &__text {
-    margin-top: 13rem;
+    //margin-top: 13rem;
     flex: 0 1 50%;
   }
 
@@ -24,8 +25,8 @@
 
   &__pepper {
     position: absolute;
-    left: -4rem;
-
+    left: -7rem;
+    bottom: -19rem;
   }
 
   &::before {

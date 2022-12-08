@@ -3,6 +3,18 @@
   font-weight: 800;
 }
 
+.heading-secondary {
+  font-size: 5.6rem;
+  font-weight: 700;
+}
+
+.heading-tertiary {
+  font-size: 3rem;
+  font-weight: 300;
+  color: $color-button-orange;
+
+}
+
 .button {
   &,
   &:link,
@@ -16,6 +28,10 @@
 
   &--orange {
     background-color: $color-button-orange;
+  }
+
+  &--green {
+    background-color: $color-primary;
   }
 
 }
