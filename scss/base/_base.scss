@@ -21,6 +21,13 @@ body {
   font-weight: 400;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
 .container {
   width: 100%;
   max-width: 122rem;
@@ -30,4 +37,6 @@ body {
 .grid--3-cols {
   grid-template-columns: repeat(3, 1fr);
 }
+
+
 

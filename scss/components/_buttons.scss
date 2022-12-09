@@ -1,0 +1,19 @@
+.button {
+  &,
+  &:link,
+  &:visited {
+    padding: 1.4rem 3.2rem;
+    border-radius: 8px;
+    display: inline-block;
+    color: $color-white;
+  }
+
+  &--orange {
+    background-color: $color-button-orange;
+  }
+
+  &--green {
+    background-color: $color-primary;
+  }
+
+}
