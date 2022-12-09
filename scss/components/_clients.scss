@@ -1,0 +1,24 @@
+.clients {
+  padding-top: 10rem;
+  background-color: $color-white;
+  text-align: center;
+
+
+  &__gallery {
+    display: grid;
+    column-gap: 2.4rem;
+    row-gap: 2rem;
+  }
+
+  &__photo-container {
+    overflow: hidden;
+  }
+
+  &__photo {
+    transition: all .4s;
+    
+    &:hover {
+      transform: scale(1.15);
+    }
+  }
+}

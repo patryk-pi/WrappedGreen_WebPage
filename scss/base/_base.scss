@@ -27,3 +27,7 @@ body {
   margin: 0 auto;
 }
 
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
