@@ -43,5 +43,6 @@
     display: flex;
     gap: 7.2rem;
     margin: 4.2rem 0 8rem;
+    @include flex-center;
   }
 }
