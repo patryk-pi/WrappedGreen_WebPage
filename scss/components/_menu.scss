@@ -17,6 +17,11 @@
     &:hover .menu__position:not(:hover) {
       transform: scale(0.9);
     }
+
+    @include small-laptop {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
   }
 
   &__position {
