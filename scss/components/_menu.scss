@@ -43,6 +43,15 @@
   &__photo {
     width: 39.2rem;
     height: 35.1rem;
+
+    @include small-laptop {
+      width: 32rem;
+      height: auto;
+    }
+
+    @include big-smartphone {
+      width: 39.2rem;
+    }
   }
 
   &__header {

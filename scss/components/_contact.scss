@@ -7,14 +7,20 @@
     justify-content: space-between;
     gap: 8rem;
     align-items: center;
+
+    @include tablet {
+      flex-direction: column;
+      gap: 4rem;
+    }
   }
 
   &__info {
     text-align: center;
-    padding: 2rem 0 3rem;
+    padding: 4rem 0;
     border-radius: 7rem;
     box-shadow: 0 17px 20px rgba($color-black, 0.16);
-    flex-basis: 33.3333%;
+    width: 38rem;
+
   }
 
   &__icon {

@@ -4,18 +4,21 @@
   flex-direction: column;
   position: relative;
   overflow: hidden;
+  background-color: $color-white;
 
   &__logo-container {
     height: 25rem;
     width: 25rem;
-    background-color: white;
     border-radius: 50%;
     @include flex-center;
+    z-index: 5;
+    background-color: $color-white;
   }
 
   &__logo {
     width: 17.2rem;
     height: 17rem;
+    z-index: 5;
   }
 
   &::before {
@@ -24,9 +27,13 @@
     height: 200rem;
     background-color: $color-primary-light-2;
     border-radius: 50%;
-    z-index: -1;
+    z-index: 1;
     position: absolute;
     top: 25%;
+  }
+
+  &__navigation {
+    z-index: 5;
   }
 
   &__navigation-list {
@@ -37,6 +44,11 @@
     font-size: 2.4rem;
     font-weight: 700;
     letter-spacing: 1.2px;
+
+    @include big-smartphone {
+      font-size: 2rem;
+    }
+
   }
 
   &__icons {
@@ -44,5 +56,7 @@
     gap: 7.2rem;
     margin: 4.2rem 0 8rem;
     @include flex-center;
+    z-index: 5;
   }
+
 }
