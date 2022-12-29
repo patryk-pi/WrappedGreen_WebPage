@@ -15,3 +15,22 @@
     @content
   }
 }
+
+
+@mixin tablet {
+  @media (max-width: 53em) {
+    @content
+  }
+}
+
+@mixin big-smartphone {
+  @media (max-width: 41.25em) {
+    @content
+  }
+}
+
+@mixin smartphone {
+  @media (max-width: 31.25em) {
+    @content
+  }
+}

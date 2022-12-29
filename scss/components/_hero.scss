@@ -4,6 +4,10 @@
   overflow: hidden;
   //height: calc(86vh - 7.5rem);
   padding-bottom: 10rem;
+
+  @include smartphone {
+    height: calc(86vh - 8rem);
+  }
 }
 
 .hero {
@@ -13,15 +17,61 @@
   position: relative;
   margin-top: 4rem;
 
+  @include smartphone {
+    margin-top: 2rem;
+  }
+
   &__text {
     //margin-top: 13rem;
     flex: 0 1 50%;
+
+    @include big-smartphone {
+      z-index: 1000;
+    }
+
+    @include smartphone {
+      color: $color-white;
+      flex-basis: 65%;
+    }
+  }
+
+  &__paragraph {
+    @include tablet {
+      font-size: 1.8rem;
+    }
+
+    @include smartphone {
+      font-size: 1.5rem;
+    }
   }
 
   &__bowl {
     width: 51.7rem;
     height: 52.2rem;
     z-index: 50;
+
+    @include tablet-landscape {
+      width: 45rem;
+      height: auto;
+    }
+
+    @include tablet {
+      margin-right: -5rem;
+    }
+
+    @include big-smartphone {
+      width: 35rem;
+      height: auto;
+      align-self: flex-start;
+      margin-right: -15rem;
+    }
+
+    @include smartphone {
+      position: absolute;
+      width: 45rem;
+      right: -15rem;
+      top: -10rem;
+    }
   }
 
   /*&__pepper {
@@ -40,5 +90,25 @@
     right: -25rem;
     top: -19rem;
     z-index: 30;
+
+    @include tablet-landscape {
+      width: 50rem;
+      height: 50rem;
+      top: -10rem;
+    }
+
+    @include big-smartphone {
+      width: 90rem;
+      height: 90rem;
+      top: -35rem;
+      left: 32rem;
+    }
+
+    @include smartphone {
+      top: -68rem;
+      left: -30rem;
+      width: 220rem;
+      height: 120rem;
+    }
   }
 }

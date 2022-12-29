@@ -12,6 +12,15 @@
 html {
   font-size: 62.5%;
   box-sizing: border-box;
+
+  @include tablet-landscape {
+    font-size: 56.25%;
+  }
+
+  @include smartphone {
+    font-size: 50%;
+  }
+
 }
 
 body {
@@ -34,6 +43,10 @@ a {
   width: 100%;
   max-width: 122rem;
   margin: 0 auto;
+
+  @include small-laptop {
+    padding: 0 2rem;
+  }
 }
 
 .grid--3-cols {

@@ -6,6 +6,11 @@
     border-radius: 8px;
     display: inline-block;
     color: $color-white;
+
+    @include smartphone {
+      font-size: 1.8rem;
+      padding: 1rem 2rem;
+    }
   }
 
   &--orange {

@@ -1,6 +1,26 @@
 .heading-primary {
   font-size: 6.4rem;
   font-weight: 800;
+
+  @include small-laptop {
+    font-size: 5.8rem;
+  }
+
+  @include tablet-landscape {
+    font-size: 4.8rem;
+  }
+
+  @include tablet {
+    font-size: 4.4rem;
+  }
+
+  @include big-smartphone {
+    font-size: 4rem;
+  }
+
+  @include smartphone {
+    font-size: 3.4rem;
+  }
 }
 
 .heading-secondary {
