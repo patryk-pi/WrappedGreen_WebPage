@@ -34,7 +34,7 @@
       align-items: center;
       justify-content: center;
       transition: all 0.5s;
-      z-index: 500;
+      z-index: 1500;
 
       opacity: 0;
       pointer-events: none;
@@ -56,9 +56,7 @@
     }
   }
 
-  &__item {
 
-  }
 
   &__link:link,
   &__link:visited {
@@ -73,6 +71,7 @@
     color: $text-color;
     border-bottom: 3px solid $color-primary;
   }
+
   &__mobile-btn {
     background-color: transparent;
     border: none;
@@ -80,7 +79,7 @@
 
     @include tablet-landscape {
       display: block;
-      z-index: 1000;
+      z-index: 1500;
     }
   }
 }

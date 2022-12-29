@@ -6,6 +6,8 @@
     border-radius: 8px;
     display: inline-block;
     color: $color-white;
+    position: relative;
+    z-index: -1;
 
     @include smartphone {
       font-size: 1.8rem;
