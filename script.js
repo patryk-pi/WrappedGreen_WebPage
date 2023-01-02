@@ -32,7 +32,7 @@ function checkHeight() {
 }
 
 checkHeight();
-window.addEventListener("resize", checkHeight);
+// window.addEventListener("resize", checkHeight);
 
 
 const allLinks = document.querySelectorAll("a:link");
