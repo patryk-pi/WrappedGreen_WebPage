@@ -5,6 +5,7 @@
   //height: calc(86vh - 7.5rem);
   padding-bottom: 10rem;
 
+
   @include smartphone {
     height: 55vh;
     padding-bottom: 0;
@@ -19,7 +20,7 @@
   margin-top: 4rem;
 
   @include smartphone {
-    margin-top: 2rem;
+    margin-top: 4rem;
   }
 
   &__text {
@@ -32,7 +33,7 @@
 
     @include smartphone {
       color: $color-white;
-      flex-basis: 65%;
+      flex-basis: 69%;
     }
   }
 
@@ -43,6 +44,7 @@
 
     @include smartphone {
       font-size: 1.5rem;
+      margin-top: 1rem;
     }
   }
 
@@ -99,10 +101,10 @@
     }
 
     @include big-smartphone {
-      width: 90rem;
-      height: 90rem;
-      top: -35rem;
-      left: 32rem;
+      width: 80rem;
+      height: 80rem;
+      top: -38rem;
+      left: 30.5rem;
     }
 
     @include smartphone {

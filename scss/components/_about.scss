@@ -2,6 +2,10 @@
   background-color: $color-white;
   padding-top: 3rem;
 
+  @include smartphone {
+    padding-top: 1rem;
+  }
+
 }
 
 .about {
@@ -37,7 +41,7 @@
       width: 22rem;
       position: absolute;
       right: -10rem;
-      top: 10rem;
+      top: 4rem;
     }
   }
 
