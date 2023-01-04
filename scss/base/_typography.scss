@@ -21,7 +21,8 @@
   @include smartphone {
     font-size: 3.4rem;
     line-height: 1.4;
-    letter-spacing: 1.1;
+    letter-spacing: 1.1px;
+    max-width: 36rem;
   }
 }
 

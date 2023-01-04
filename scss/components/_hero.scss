@@ -33,7 +33,7 @@
 
     @include smartphone {
       color: $color-white;
-      flex-basis: 69%;
+      flex-basis: 79%;
     }
   }
 
@@ -43,7 +43,6 @@
     }
 
     @include smartphone {
-      font-size: 1.5rem;
       margin-top: 1rem;
     }
   }
