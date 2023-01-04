@@ -1,6 +1,8 @@
 .heading-primary {
   font-size: 6.4rem;
   font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 3rem;
 
   @include small-laptop {
     font-size: 5.8rem;
@@ -23,6 +25,7 @@
     line-height: 1.4;
     letter-spacing: 1.1px;
     max-width: 36rem;
+    margin-bottom: 2rem;
   }
 }
 

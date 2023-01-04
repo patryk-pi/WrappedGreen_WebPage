@@ -52,6 +52,10 @@
     @include big-smartphone {
       width: 39.2rem;
     }
+
+    @include smartphone {
+      width: 35rem;
+    }
   }
 
   &__header {
