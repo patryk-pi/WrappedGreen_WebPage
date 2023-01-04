@@ -10,9 +10,7 @@ let viewportHeight = window.innerHeight;
 let viewportWidth = window.innerWidth;
 const sectionHero = document.querySelector(".section-hero")
 
-console.log(viewportHeight);
-
-function checkHeight() {
+/*function checkHeight() {
     viewportHeight = window.innerHeight;
     viewportWidth = window.innerWidth;
 
@@ -31,7 +29,7 @@ function checkHeight() {
     }
 }
 
-checkHeight();
+checkHeight();*/
 // window.addEventListener("resize", checkHeight);
 
 
@@ -56,7 +54,7 @@ allLinks.forEach(function (link) {
         }
 
         // Close mobile navigation
-        if (link.classList.contains("navigation__link"))
+        if (link.classList. contains("navigation__link"))
             header.classList.toggle("nav-open");
     });
 });
